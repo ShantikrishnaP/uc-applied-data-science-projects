@@ -1,4 +1,4 @@
-# University of Canterbury – MSc Applied Data Science Projects
+# University of Canterbury – Master of Applied Data Science Projects
 
 This repository contains selected academic projects completed during my Master of Applied Data Science at the University of Canterbury, New Zealand.
 
