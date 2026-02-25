@@ -32,7 +32,37 @@ Technologies:
 Key Outcome:
 Developed personalized recommendation engine with improved preprocessing efficiency.
 
-## 3. AI in Fashion Retail – Business Strategy & Ethical Analysis
+---
+
+## 3. Scalable Music Genre Classification & Recommendation (Million Song Dataset)
+
+Implemented large-scale genre classification and collaborative filtering using Apache Spark on the Million Song Dataset.
+
+**Scale & Engineering**
+- ~97GB audio features dataset (HDFS)
+- 48M+ user-song interactions
+- 1M+ users and 384K+ songs
+- Distributed processing using Spark
+
+**Technologies**
+- PySpark
+- Spark ML
+- HDFS
+- Distributed data processing
+
+**Key Contributions**
+- Built binary and multiclass genre classification models (Logistic Regression, Random Forest, Gradient Boosted Trees)
+- Addressed class imbalance (minority genre ~9.67%)
+- Developed collaborative filtering recommendation model
+- Applied repartitioning and caching strategies for performance optimization
+- Evaluated using Precision@10, NDCG@10, and MAP metrics
+
+**Outcome**  
+Demonstrated scalable machine learning training and recommendation modeling in distributed environments.
+
+---
+
+## 4. AI in Fashion Retail – Business Strategy & Ethical Analysis
 
 Strategic evaluation of H&M’s “Body Scan Jeans” AI technology and proposed implementation framework for Hallenstein Glassons (NZ).
 
@@ -52,10 +82,13 @@ Developed a structured AI business case incorporating technical feasibility, gov
 
 ## Skills Demonstrated Across Projects
 
-- Machine Learning & Predictive Modeling
-- Computer Vision & OCR Systems
-- Recommendation Systems
-- Business Intelligence & Reporting
-- AI Strategy & Governance
-- Ethical AI & Risk Analysis
-- Stakeholder-focused solution design
+- Machine Learning & Predictive Modeling  
+- Computer Vision & OCR Systems  
+- Recommendation Systems  
+- Distributed Computing & Big Data (Spark)  
+- Feature Engineering & Data Preprocessing  
+- Model Evaluation under Class Imbalance  
+- Business Intelligence & Analytical Reporting  
+- AI Strategy & Governance  
+- Ethical AI & Risk Analysis  
+- Stakeholder-Focused Solution Design  
